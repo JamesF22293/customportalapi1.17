@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "net.kyrptonaught.customportalapi.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "AbstractFireMixin",
+    "BucketMixin",
+    "EntityMixin",
+    "PlayerMixin"
+  ],
+  "client": [
+    "client.ClientPlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
